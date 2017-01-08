@@ -117,15 +117,15 @@ void deallocate(struct bstnode* input){
 int main(){
 
 	insert(50);
-    insert(30);
-    insert(40);
-    insert(20);
+	insert(30);
+    	insert(40);
+    	insert(20);
 	insert(70);
-    insert(80);
+    	insert(80);
 	insert(60);
 	insert(65);
 	delete(root, 50);
-    preorder(root);
-    deallocate(root);
+    	preorder(root);
+    	deallocate(root);
 	return 0;
 }
